@@ -147,7 +147,7 @@ public class RobotContainer {
     
     new JoystickButton(m_operatorController, 5)
         .whileTrue(new IntakeCube(intake))
-        .onFalse(new IntakeIdle(intake))
+        .onFalse(new IntakeIdle(intake));
 
     new JoystickButton(m_operatorController, 6)
         .whileTrue(new IntakeCone(intake))
